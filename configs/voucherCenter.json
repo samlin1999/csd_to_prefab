@@ -1,0 +1,57 @@
+{
+  "csdDir": "voucherCenter",
+  "module": "voucherCenter",
+  "imagesOut": "assets/art-assets/modules/voucherCenter/images/main",
+  "fontsOut": "assets/art-assets/modules/voucherCenter/fnt",
+  "copyAllModuleImages": true,
+  "reuse": {
+    "JiliCardSystem/Img/CardLobby/CardLobby_Btn_Close.png": "assets/art-assets/modules/jiliCardSystem/Img/CardLobby/CardLobby_Btn_Close.png",
+    "JiliCardSystem/Img/Manual/Manual_Frame_01.png": "assets/art-assets/modules/jiliCardSystem/Img/Manual/Manual_Frame_01.png",
+    "JiliCardSystem/Img/Manual/Manual_Frame_02.png": "assets/art-assets/modules/jiliCardSystem/Img/Manual/Manual_Frame_02.png",
+    "vip/img/VIP_card_big/VIP_0.png": "assets/art-assets/modules/vip/images/VIP_0.png"
+  },
+  "externalPrefabs": {
+    "purchase/Addvalue/Csd/FX_star.csd": "assets/art-assets/modules/purchase/Addvalue/Csd/FX_star.prefab"
+  },
+  "placeholders": [
+    "Default/ImageFile.png"
+  ],
+  "prefabs": [
+    {
+      "csd": "InfoPage_H.csd",
+      "name": "InfoPage_H",
+      "out": "assets/art-assets/modules/voucherCenter/prefabs/InfoPage_H.prefab",
+      "root": "container"
+    },
+    {
+      "csd": "InfoPage_V.csd",
+      "name": "InfoPage_V",
+      "out": "assets/art-assets/modules/voucherCenter/prefabs/InfoPage_V.prefab",
+      "root": "container"
+    },
+    {
+      "csd": "VoucherCenterTip.csd",
+      "name": "VoucherCenterTip",
+      "out": "assets/art-assets/modules/voucherCenter/prefabs/VoucherCenterTip.prefab",
+      "root": "container"
+    },
+    {
+      "csd": "VoucherIcon.csd",
+      "name": "VoucherIcon",
+      "out": "assets/art-assets/modules/voucherCenter/prefabs/VoucherIcon.prefab",
+      "root": "container"
+    },
+    {
+      "csd": "MainView_H.csd",
+      "name": "VoucherCenterView_H",
+      "out": "assets/main-assets/voucherCenter/VoucherCenterView_H.prefab",
+      "root": "view"
+    },
+    {
+      "csd": "MainView_V.csd",
+      "name": "VoucherCenterView_V",
+      "out": "assets/main-assets/voucherCenter/VoucherCenterView_V.prefab",
+      "root": "view"
+    }
+  ]
+}
